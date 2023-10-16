@@ -1,0 +1,204 @@
+.container {
+  margin-left: 7%;
+  margin-right: 7%;
+  border: 1px solid rgb(225, 224, 224);
+  background-color: rgb(249, 248, 248);
+  height: 100%;
+}
+.subcontainer {
+  border: 1px solid rgb(244, 242, 242);
+  margin: 22px;
+  background-color: white;
+  border-radius: 4px;
+  height: 700px;
+}
+.super {
+  margin-left: 1rem;
+}
+.first {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.first1,
+.first2 {
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.first1 label,
+.first2 label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.first1 input {
+  margin-top: 0.5rem;
+  padding: 0.7rem;
+  border: 1px solid hsl(0, 6%, 90%);
+  border-radius: 4px;
+  width: 90%;
+}
+.first1 input::placeholder {
+  color: rgb(199, 197, 197);
+  font-size: 15px;
+}
+.first2 input {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  width: 92%;
+  height: 88px;
+  border: 1px solid hsl(0, 6%, 90%);
+  border-radius: 4px;
+}
+.first2 input::placeholder {
+  margin-bottom: 5rem;
+  color: rgb(199, 197, 197);
+  font-size: 15px;
+}
+.second {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.second1,
+.second2,
+.second3 {
+  flex: 1;
+  padding-right: 2rem;
+}
+.second input {
+  margin-top: 0.7rem;
+  padding: 0.7rem;
+  border: 1px solid hsl(0, 6%, 90%);
+  border-radius: 4px;
+  width: 95%;
+}
+.second input::placeholder {
+  color: rgb(199, 197, 197);
+  font-size: 15px;
+}
+.second label {
+  margin-bottom: 0.7rem;
+}
+.third {
+  flex: 1;
+  padding-right: 2rem;
+  margin-bottom: 1.5rem;
+}
+.third input {
+  margin-top: 0.7rem;
+  padding: 0.7rem;
+  border: 1px solid hsl(0, 6%, 90%);
+  border-radius: 4px;
+  width: 99%;
+}
+.third input::placeholder {
+  color: rgb(199, 197, 197);
+  font-size: 15px;
+}
+.third label {
+  margin-bottom: 0.8rem;
+}
+.fourth {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.fourth input {
+  margin-top: 0.7rem;
+  padding: 0.7rem;
+  border: 1px solid hsl(0, 6%, 90%);
+  border-radius: 4px;
+  width: 98%;
+  margin-bottom: 0.9rem;
+}
+.fourth input::placeholder {
+  color: rgb(199, 197, 197);
+  font-size: 15px;
+}
+.fourth1,
+.fourth2 {
+  flex: 1;
+  padding-right: 2rem;
+}
+.fifth {
+  flex: 1;
+  padding-right: 2rem;
+  margin-bottom: 1.5rem;
+}
+.fifth label {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.fifth input {
+  margin-top: 0.7rem;
+  padding: 0.7rem;
+  border: 1px solid hsl(0, 6%, 90%);
+  border-radius: 4px;
+  width: 99%;
+}
+.fifth input::placeholder {
+  color: rgb(199, 197, 197);
+  font-size: 15px;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+
+.button button {
+  margin-left: 1rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-size: medium;
+}
+.button1 {
+  background-color: rgb(252, 248, 248);
+  border-radius: 4px;
+  border: 1px solid rgb(190, 189, 189);
+  color: black;
+}
+.button2 {
+  background-color: rgb(19, 148, 190);
+  border-radius: 4px;
+  border: 1px solid rgb(190, 189, 189);
+  color: white;
+}
+.house {
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: center;
+}
+.main {
+  background-color: rgb(248, 244, 244);
+}
+.sub {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 14rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+.sub button {
+  margin-left: 1rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-size: medium;
+}
+.sub1 {
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid rgb(190, 189, 189);
+}
+.sub2 {
+  background-color: rgb(19, 148, 190);
+  border-radius: 4px;
+  border: 1px solid rgb(190, 189, 189);
+  color: white;
+}

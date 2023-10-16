@@ -1,0 +1,82 @@
+.maincontainer {
+  margin-left: 7%;
+  margin-right: 7%;
+  background-color: rgb(248, 244, 244);
+}
+.header {
+  border: 1px solid rgb(249, 247, 247);
+  box-shadow: 0px 1px 1px rgb(244, 243, 243);
+  background-color: white;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+}
+
+.logo a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #656564;
+}
+.table-container {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.customers {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.customers,
+.customers {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  text-align: left;
+}
+
+.customers th {
+  background-color: white;
+}
+
+.customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.customers tr:hover {
+  background-color: #ddd;
+}
+
+.adInsightsRow {
+  background-color: white;
+  font-weight: bold;
+}
